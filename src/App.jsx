@@ -7,6 +7,9 @@ import './index.css'
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
 const date = new Date().getFullYear()
+const coutryName ='Bangladesh'
+const countryCapital ='Dhaka'
+
 const headingStyle ={
   backgroundColor: "purple",
   color: 'white',
@@ -26,6 +29,11 @@ function App() {
         <h2 style ={headingStyle} >Description: {projectDescription}</h2>
         <h3 className = "demoHeadingStyle" >Time: {date} </h3>
         <h3 className = "demoHeadingStyleDate" >Month day: {new Date().getDate()} </h3>
+        
+        <div className='card'>
+          <h2 className='countryName'>Country Name: {coutryName} </h2>
+          <p className='countryCapital'>Capital: {countryCapital}</p>
+        </div>
 
  
       </div>

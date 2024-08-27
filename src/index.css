@@ -20,6 +20,24 @@
   text-align: center;
 }
 
+.card {
+  background-color:rgb(230, 0, 255);
+  box-shadow: 2px 2px 4px  grey;
+  border-radius: 5px;
+  margin: 10px;
+  width: 390 px;
+  display: inline-block;
+
+}
+.countryName {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.countryCapital {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
