@@ -13,6 +13,13 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.demoHeadingStyleDate {
+  background-color: rgb(11, 201, 81);
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
