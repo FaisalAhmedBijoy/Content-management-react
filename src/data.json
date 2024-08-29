@@ -1,0 +1,18 @@
+[
+    {
+        "airName": "Qatar Airways",
+        "airRoute": "Dhaka - Qatar"
+    },
+    {
+        "airName": "Emirates Airways",
+        "airRoute": "Dhaka - Dubai"
+    },
+    {
+        "airName": "Turkish Airways",
+        "airRoute": "Dhaka - Istambul"
+    },
+    {
+        "airName": "Sri Lankan Airways",
+        "airRoute": "Dhaka - Colombo"
+    }
+]

@@ -4,7 +4,10 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import './index.css'
 import Train from './components/Train'
+import Air from './components/Air'
 // import Bus from './components/Bus'
+import Data from './data.json'
+import UniqueListGenerator from './components/UniqueIdGeneration'
 
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
@@ -14,6 +17,14 @@ const countryCapital = 'Dhaka'
 
 const busName = 'Green Line'
 const busRoute = 'Dhaka - Khulna'
+
+let airNamesAndRoutes =[]
+for (let i=0; i<Data.length; i++) {
+  airNamesAndRoutes.push(<Air airName={Data[i].airName} airRoute = {Data[i].airRoute} /> )
+  
+}
+
+let airItemsMaps = Data.map((item, index) => <Air  key={index} airName={item.airName} airRoute={item.airRoute} /> ); 
 
 function Bus() {
   return <div className='bus'>
@@ -51,6 +62,26 @@ function App() {
         < Bus />
 
         <Train />
+        <Train />
+
+        <Air airName="NovoAir" airRoute="Dhaka - Chittagong"/>
+        <Air airName={Data[0].airName} airRoute={Data[0].airRoute} />
+        <Air airName={Data[1].airName} airRoute={Data[1].airRoute} />
+        <Air />
+
+        <h3> International Air Flight</h3>
+        {airNamesAndRoutes}
+
+        <h3>Flight by Map</h3>
+        {airItemsMaps}
+
+        <h3>Flight by Direct Map</h3>
+
+        {Data.map((item, index) => <Air  key={index} airName={item.airName} airRoute={item.airRoute} /> )} 
+        
+        <h4>Unique List Generation</h4>
+        < UniqueListGenerator />
+
 
       </div>
 
