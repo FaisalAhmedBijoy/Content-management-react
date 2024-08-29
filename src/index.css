@@ -38,6 +38,43 @@
   margin-bottom: 5px;
 }
 
+.bus {
+  background-color:rgb(187, 190, 9);
+  box-shadow: 2px 2px 4px  grey;
+  border-radius: 5px;
+  margin: 10px;
+  width: 390 px;
+  display: inline-block;
+
+}
+.busName  {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+.busRoute  {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+.train {
+  background-color:rgb(12, 12, 218);
+  box-shadow: 2px 2px 4px  grey;
+  border-radius: 5px;
+  margin: 10px;
+  width: 390 px;
+  display: inline-block;
+
+}
+.trainName  {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+.trainRoute  {
+  text-align: justify;
+  margin-bottom: 5px;
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
