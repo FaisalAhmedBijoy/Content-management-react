@@ -36,6 +36,8 @@ function Bus() {
 
 }
 
+
+
 const headingStyle = {
   backgroundColor: "purple",
   color: 'white',
@@ -87,12 +89,10 @@ function App() {
 
         < CardClass />
         < CardClass name="class demo component" />
-
-
       </div>
 
     </>
   )
 }
 
-export default App
+export default App;
