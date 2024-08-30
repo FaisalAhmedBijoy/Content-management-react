@@ -8,7 +8,7 @@ import Air from './components/Air'
 // import Bus from './components/Bus'
 import Data from './data.json'
 import UniqueListGenerator from './components/UniqueIdGeneration'
-
+import NestedList from './components/NestedList'
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
 const date = new Date().getFullYear()
@@ -81,6 +81,7 @@ function App() {
         
         <h4>Unique List Generation</h4>
         < UniqueListGenerator />
+        < NestedList />
 
 
       </div>
