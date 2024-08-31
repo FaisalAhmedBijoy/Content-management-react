@@ -10,7 +10,9 @@ import Data from './data.json'
 import UniqueListGenerator from './components/UniqueIdGeneration'
 import NestedList from './components/NestedList'
 import CardClass from './components/classComponentDemo'
-
+// import { IconName } from "react-icons/fa";
+// import { FaFacebook  } from "react-icons/fa";
+import { FaFacebook, FaYoutube } from "react-icons/fa";
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
 const date = new Date().getFullYear()
@@ -89,6 +91,13 @@ function App() {
 
         < CardClass />
         < CardClass name="class demo component" />
+
+        <span> 
+        < FaFacebook />
+
+        < FaYoutube className="icon" />
+        </span>
+
       </div>
 
     </>

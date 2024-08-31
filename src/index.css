@@ -47,6 +47,13 @@
   display: inline-block;
 
 }
+
+.icon {
+  font-size: 3rem;
+  color: orange;
+  margin: 2rem;
+
+}
 .busName  {
   text-align: justify;
   margin-bottom: 5px;
