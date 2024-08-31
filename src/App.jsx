@@ -13,6 +13,10 @@ import CardClass from './components/classComponentDemo'
 // import { IconName } from "react-icons/fa";
 // import { FaFacebook  } from "react-icons/fa";
 import { FaFacebook, FaYoutube } from "react-icons/fa";
+import ReactBootstrap from './components/ReactBootsrap'
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
 const date = new Date().getFullYear()
@@ -97,6 +101,7 @@ function App() {
 
         < FaYoutube className="icon" />
         </span>
+        < ReactBootstrap />
 
       </div>
 
