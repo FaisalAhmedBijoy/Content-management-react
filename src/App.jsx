@@ -16,6 +16,7 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 import ReactBootstrap from './components/ReactBootsrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import StateDemo from './components/StateDemo'
 
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
@@ -58,6 +59,8 @@ function App() {
       <div>
         <h1>Management System</h1>
         <h2>Developed in React</h2>
+        
+        < StateDemo />
 
         <h3 style={{ color: 'red', fontSize: "3rem" }} >Project Name: {projectName}</h3>
         <h2 style={headingStyle} >Description: {projectDescription}</h2>
