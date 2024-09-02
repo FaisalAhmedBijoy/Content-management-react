@@ -1,13 +1,11 @@
 {
-  "homepage": "https://github.com/FaisalAhmedBijoy/Content-management-react",
+ 
   "name": "content-management-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "predeploy": "npm run dev",
-    "deploy": "gh-pages -d build",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
