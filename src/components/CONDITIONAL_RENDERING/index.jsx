@@ -4,7 +4,7 @@ import LoginPage from './HomePage'
 class CONDITIONAL_RENDERING extends Component {
     constructor(props) {
         super(props)
-        
+
         this.state = {
             isLoggedIn: false
         }
@@ -13,12 +13,13 @@ class CONDITIONAL_RENDERING extends Component {
 
         const { isLoggedIn } = this.state
         let element;
-        if (isLoggedIn) {
-            element = < HomePage />
-        }
-        else {
-            element = < LoginPage />
-        }
+        element = isLoggedIn ? < HomePage /> : < LoginPage />
+        // if (isLoggedIn) {
+        //     element = < HomePage />
+        // }
+        // else {
+        //     element = < LoginPage />
+        // }
         return (
             <div>
                 {element}
