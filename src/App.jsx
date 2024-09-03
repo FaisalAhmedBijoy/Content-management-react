@@ -17,6 +17,7 @@ import ReactBootstrap from './components/ReactBootsrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import StateDemo from './components/StateDemo'
+import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING'
 
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
@@ -61,6 +62,8 @@ function App() {
         <h2>Developed in React</h2>
         
         < StateDemo />
+        < CONDITIONAL_RENDERING />
+        
 
         <h3 style={{ color: 'red', fontSize: "3rem" }} >Project Name: {projectName}</h3>
         <h2 style={headingStyle} >Description: {projectDescription}</h2>

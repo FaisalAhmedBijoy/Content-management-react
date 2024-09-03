@@ -29,8 +29,8 @@ class StateDemo extends Component {
         return (
             <div>
                 <h1>Count: {count} </h1>
-                <Button variant='success' onClick={this.handleIncrement} disabled={count === 10 ? true : false} >+</Button>
-                <Button variant='warning' onClick={this.handleDecrement} disabled={count === 0 ? true : false} >-</Button>
+                <Button variant ='success' onClick={this.handleIncrement} disabled={count === 10 ? true : false} >+</Button>
+                <Button variant ='warning' onClick={this.handleDecrement} disabled={count === 0 ? true : false} >-</Button>
             </div>
         )
     }
