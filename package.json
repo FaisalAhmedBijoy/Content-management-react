@@ -1,5 +1,5 @@
 {
- "homepage": "https://github.com/FaisalAhmedBijoy/Content-management-react",
+ "homepage": "https://faisalahmedbijoy.github.io/Content-management-react",
  "name": "content-management-react",
  "private": true,
  "version": "0.0.0",
@@ -7,6 +7,8 @@
  "scripts": {
   "dev": "vite",
   "build": "vite build",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
   "lint": "eslint .",
   "preview": "vite preview"
  },
