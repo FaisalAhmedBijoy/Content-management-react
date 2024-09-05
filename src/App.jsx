@@ -16,8 +16,9 @@ import { FaFacebook, FaYoutube } from "react-icons/fa";
 import ReactBootstrap from './components/ReactBootsrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import StateDemo from './components/StateDemo'
-import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING'
+import StateDemo from './components/StateDemo';
+import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
+import EventHandlingOnChange from './components/EventHandlingOnChange';
 
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
@@ -63,6 +64,8 @@ function App() {
         
         < StateDemo />
         < CONDITIONAL_RENDERING />
+
+        < EventHandlingOnChange />
         
 
         <h3 style={{ color: 'red', fontSize: "3rem" }} >Project Name: {projectName}</h3>
