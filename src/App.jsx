@@ -19,6 +19,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import StateDemo from './components/StateDemo';
 import CONDITIONAL_RENDERING from './components/CONDITIONAL_RENDERING/index'
 import EventHandlingOnChange from './components/EventHandlingOnChange';
+import EventHandlerBinding from './components/EventHandlerBinding'
 
 const projectName = 'Content Management System'
 const projectDescription = 'Project Development by React + Vue'
@@ -66,6 +67,7 @@ function App() {
         < CONDITIONAL_RENDERING />
 
         < EventHandlingOnChange />
+        < EventHandlerBinding />
         
 
         <h3 style={{ color: 'red', fontSize: "3rem" }} >Project Name: {projectName}</h3>
