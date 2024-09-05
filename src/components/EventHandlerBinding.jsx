@@ -10,6 +10,7 @@ class EventHandlerBinding extends Component {
         this.handleOnClickBindConstructor = this.handleOnClickBindConstructor.bind(this)
     }
 
+    // error function - ES 6
     handleOnClick = (event) => {
         console.log('count value: ', this.state.count)
         this.setState({
